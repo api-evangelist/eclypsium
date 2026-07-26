@@ -1,7 +1,19 @@
 aid: eclypsium
 name: Eclypsium
-description: Eclypsium is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eclypsium is a supply-chain and infrastructure security company that delivers
+  firmware, hardware, and low-level software assurance for enterprise and national
+  infrastructure. Its cloud-based platform continuously scans laptops, servers,
+  network gear, and other devices for firmware implants, rootkits, backdoors,
+  vulnerable components, and integrity drift below the operating system, giving
+  security teams device-level visibility, threat detection, and supply-chain risk
+  management across the hardware and firmware lifecycle. Eclypsium integrates with
+  SIEM, SOAR, and IT workflows and is used to defend against firmware-level attacks,
+  enforce device integrity, and meet supply-chain security and compliance
+  requirements. The company was surfaced as an a16z portfolio company and is
+  profiled here in the API Evangelist network. No public self-service developer
+  API is currently published; enrichment captured the company's security, trust,
+  and disclosure posture.
 url: https://raw.githubusercontent.com/api-evangelist/eclypsium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,66 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.google.com/s2/favicons?domain=eclypsium.com&sz=128
 tags:
 - Company
+- Security
+- Cybersecurity
+- Firmware Security
+- Supply Chain Security
+- Hardware Security
+- Infrastructure Security
+- Endpoint Security
+- Threat Detection
 apis: []
+common:
+- type: Website
+  url: https://eclypsium.com/
+- type: DeveloperPortal
+  url: https://eclypsium.zendesk.com/
+- type: Documentation
+  url: https://eclypsium.zendesk.com/hc/en-us
+- type: Support
+  url: https://eclypsium.zendesk.com/
+- type: Blog
+  url: https://eclypsium.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/eclypsium
+- type: TermsOfService
+  url: https://eclypsium.com/eula/
+- type: PrivacyPolicy
+  url: https://eclypsium.com/privacy-policy/
+- type: Security
+  url: https://eclypsium.com/security/
+- type: VulnerabilityDisclosure
+  url: security/eclypsium-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: https://app.vanta.com/eclypsium.com/trust/wkvvasiwi3lyfjrp73kskl
+- type: Compliance
+  url: https://app.vanta.com/eclypsium.com/trust/wkvvasiwi3lyfjrp73kskl
+- type: DomainSecurity
+  url: security/eclypsium-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
